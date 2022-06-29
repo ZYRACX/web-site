@@ -11,3 +11,7 @@ export default function handler(
 ) {
   res.status(200).json({ name: 'John Doe' })
 }
+
+export function hhh(req: NextApiRequest, res: NextApiResponse) {
+  res.status(200).json({ name: 'LOL' })
+}
