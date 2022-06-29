@@ -1,0 +1,22 @@
+.TrendingCard{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+
+}
+
+.cardBase{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    border: 1px ridge;
+    width: 100%;
+}
+
+.card{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+}
