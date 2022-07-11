@@ -25,12 +25,12 @@ const Tittle: React.FunctionComponent = () => {
       </div> */}
       <>
         <div className={style.title}>
-          Starz Web 
+          My Web 
           <Button
-            href="/"
+            href="/auth/login"
             style={{ margin: "5px", position: "relative", float: "right" }}
           >
-            Sign Up
+            Login
           </Button>
         </div>
 
@@ -46,7 +46,7 @@ const Tittle: React.FunctionComponent = () => {
           </Button>
           </Col>
           <Col>
-          <Button variant="" href="free-to-play" className={style.btn1}>
+          <Button variant="" href="/free-to-play" className={style.btn1}>
             <span className="f2p pb"> Free to play </span>
           </Button>
           </Col>
